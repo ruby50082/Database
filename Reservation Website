@@ -1,0 +1,31 @@
+# Reservation Website
+
+1. Information Table
+  - third normal form
+  - managed by admin only and the admon could add and delete information records.
+  - If there are some houses use that information but admin still delete the information record,
+    please delete that information record but also reserve the house records.
+    
+2. Location Table
+  - third normal form
+  - managed by admin only and the admin could add and delete information records.
+  - If there are some houses use that information but admin still delete the record,
+    please delete that information record but also reserve the house records.
+  - one house only have one location
+  
+3. Reservation Page
+  - Landlord
+    - Show check-in and check-out date and order by which user name for each house.
+  - Tenant
+    - Tenant could search house by chech-in and check-out date and order the house.
+    - Booking button should be displayed beside the favorite button.
+    - Order Page
+      - Show the reservation detail like all house columns and the check-in check-out date
+    - Edit and Hint
+      - If there is other reservation, please give tenant the hint which dates are reserved 
+        between the new check-in and chech-out date and ask tenant to change the reservation
+4. Search check-in date and check-out date
+  - Add search columns of check-in date and check-out date and two columns are required to fill up.
+  
+5. Search Pagination
+  - There are at most five records in one page. If the number of records is greater than five, you have to do pagination.
